@@ -1,19 +1,26 @@
 # Gemini Agents & Skills Hub
 
-Este repositorio centraliza la documentación y configuración de agentes personalizados y sus habilidades para Gemini CLI.
+This repository centralizes the documentation and configuration for custom agents and their skills for Gemini CLI.
 
-## Estructura del Repositorio
+## Repository Structure
 
-- `skills/`: Contiene subdirectorios para cada habilidad específica. Cada habilidad debe incluir un archivo `SKILL.md`.
-- `agents/`: (Opcional) Documentación sobre la configuración de agentes específicos.
+- `skills/`: Contains subdirectories for each specific skill. Each skill must include a `SKILL.md` file.
+- `agents/`: (Optional) Documentation regarding specific agent configurations.
 
-## Cómo añadir una nueva Habilidad
+## How to Add a New Skill
 
-1. Crea un nuevo directorio en `skills/nombre-de-la-habilidad`.
-2. Copia el archivo `SKILL_TEMPLATE.md` en ese directorio y renómbralo a `SKILL.md`.
-3. Completa la documentación de la habilidad.
-4. Registra la habilidad en Gemini CLI usando la ruta absoluta del archivo `SKILL.md`.
+1. Create a new directory in `skills/skill-name`.
+2. Copy the `SKILL_TEMPLATE.md` file into that directory and rename it to `SKILL.md`.
+3. Complete the skill's documentation.
+4. Register the skill in Gemini CLI using the absolute path to the `SKILL.md` file.
 
-## Registro en Gemini CLI
+## Gemini CLI Registration
 
-Para que Gemini CLI reconozca una habilidad, debe estar configurada en tu entorno. Puedes usar el comando de configuración de Gemini CLI para apuntar a los archivos `SKILL.md` en este repositorio.
+For Gemini CLI to recognize a skill, it must be configured in your environment. You can use the Gemini CLI configuration commands to point to the `SKILL.md` files within this repository.
+
+## Current Agents
+
+- **Orchestrator**: The primary agent responsible for strategic planning and delegation.
+- **Researcher**: Specialized in codebase analysis and technical requirements gathering.
+- **Coder**: Focused on implementing solutions from abstract specifications (Clean Room approach).
+- **Reviewer**: Responsible for code review, security, and automated validation.
