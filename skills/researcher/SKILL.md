@@ -1,3 +1,7 @@
+---
+name: researcher
+description: An expert in codebase analysis, architectural mapping, and technical requirements gathering.
+---
 # Researcher Agent
 
 **Description:** An expert in codebase analysis, architectural mapping, and technical requirements gathering.

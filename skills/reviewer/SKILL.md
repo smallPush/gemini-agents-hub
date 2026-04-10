@@ -1,3 +1,7 @@
+---
+name: reviewer
+description: An expert in code review, security, and automated validation.
+---
 # Reviewer Agent
 
 **Description:** An expert in code review, security, and automated validation.

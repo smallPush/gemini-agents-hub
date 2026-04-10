@@ -1,3 +1,7 @@
+---
+name: orchestrator
+description: The primary agent responsible for strategic planning, task delegation, and managing the end-to-end development lifecycle using a Clean Room approach.
+---
 # Orchestrator Agent
 
 **Description:** The primary agent responsible for strategic planning, task delegation, and managing the end-to-end development lifecycle using a Clean Room approach.
